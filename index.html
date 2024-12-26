@@ -2,42 +2,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Akshay Njarangal</title>
   </head>
 
   <body>
     <header>
-      <h1>Akshay Njarangal</h1>
-      <h4>
-        Full Stack Developer | Android & iOS Deeveloper | Flutter Developer
-      </h4>
-      <nav>
-        <a href="#">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
+      <div class="left-content">
+        <h1>Akshay Njarangal</h1>
+      </div>
+      <div class="right-content">
+        <nav>
+          <a href="#">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
     </header>
     <main>
       <section id="about">
-        <br />
         <img
           src="https://avatars.githubusercontent.com/u/63861163?v=4"
           alt="Image"
+          class="cover-image"
         />
-        <a href="/about.html" target="_blank"><h2>About Me</h2></a>
-        <p>
-          I'm a passionated Full Stack Mobile App Developer- specializing in
-          Flutter and native iOS development. With over 3.8 years of experience,
-          I build seamless, user-centric mobile solutions.
-        </p>
+        <div class="about-me">
+          <a href="/about.html" target="_blank">
+            <h2>About Me</h2>
+          </a>
+          <p style="padding-top: 16px">
+            I'm a passionated Full Stack Mobile App Developer- specializing in
+            Flutter and native iOS development. With over 3.8 years of
+            experience, I build seamless, user-centric mobile solutions.
+          </p>
+        </div>
       </section>
       <section id="skills">
-        <a href="/skills.html" target="_blank"><h2>Skills</h2></a>
+        <a href="/skills.html" target="_blank">
+          <h2>Skills</h2>
+        </a>
         <ul>
-          <li>Technical</li>
-          <br>
+          <div class="sub-title">
+            <li>Technical</li>
+          </div>
+          <br />
           <ul>
             <li>Flutter (3 years and 8 month)</li>
             <li>Native iOS (1 year)</li>
@@ -54,9 +64,11 @@
             <li>Adobe Suite (Illustrator, InDesign, Photoshop)</li>
             <li>Version Control (Git, GitHub)</li>
           </ul>
-          <br>
-          <li>Soft Skill</li>
-          <br>
+          <br />
+          <div class="sub-title">
+            <li>Soft Skill</li>
+          </div>
+          <br />
           <ul>
             <li>Problem-solving</li>
             <li>Teamwork</li>
@@ -65,7 +77,9 @@
         </ul>
       </section>
       <section id="projects">
-        <a href="/projects.html" target="_blank"><h2>Projects</h2></a>
+        <a href="/projects.html" target="_blank">
+          <h2>Projects</h2>
+        </a>
         <dl>
           <dt>
             <b>CRM Mobile App</b>
@@ -100,7 +114,9 @@
         </dl>
       </section>
       <section id="contact">
-        <a href="/contact.html" target="_blank"><h2>Contact</h2></a>
+        <a href="/contact.html" target="_blank">
+          <h2>Contact</h2>
+        </a>
         <p>Have a project in mind? Let’s connect!</p>
         <form action="https://example.com/submit-form" method="POST">
           <fieldset>
